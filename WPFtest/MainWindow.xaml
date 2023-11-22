@@ -1,0 +1,61 @@
+﻿<Window x:Class="WPFtest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFtest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1080" Width="1920">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button Height="100"/>
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <Button x:Name="Page1" Content="Page1" Height="100" MinWidth="100" Width="311" Margin="0,5,5,5">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="3"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button x:Name="Page2" Content="Page2" Height="100" MinWidth="100" Width="311" Margin="5,5,5,5">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="3"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button x:Name="Page3" Content="Page3" Height="100" MinWidth="100" Width="311" Margin="5,5,5,5">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="3"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button x:Name="Page4" Content="Page4" Height="100" MinWidth="100" Width="311" Margin="5,5,5,5">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="3"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button x:Name="Page5" Content="Page5" Height="100" MinWidth="100" Width="311" Margin="5,5,5,5">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="3"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button x:Name="Page6" Content="Page6" Height="100" MinWidth="100" Width="311" Margin="5,5,5,5">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="3"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </StackPanel>
+        <Frame x:Name="MyFrame" Grid.Row="1" Background="AliceBlue"></Frame>
+    </Grid>
+</Window>
